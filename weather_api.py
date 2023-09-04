@@ -4,7 +4,7 @@ import json
 #https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 city=input("City:")
-api_key="9f67c911d44c05cd9c3b7956ca81a43b"
+api_key=""
 url_1="https://api.openweathermap.org/data/2.5/weather?q="
 url= url_1 + city + "&appid=" + api_key
 data = requests.get(url)
